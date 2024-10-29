@@ -1,0 +1,45 @@
+
+.bi-view-stacked{
+    font-size: 3.7em;
+    transform: rotate(32deg);
+}
+
+
+.bi-airplane{
+    font-size: 3.7em;
+    transform: rotate(-32deg);
+}
+
+.bi-balloon-fill{
+    font-size: 3.7em;
+    transform: rotate(32deg);
+}
+.bi-cookie{
+    font-size: 3.7em;
+}
+
+.bi-box{
+    font-size: 3.7em;
+}
+
+.bi-credit-card-2-back{
+    font-size: 3.7em;
+}
+
+.bi-airplane-engines-fill{
+    font-size: 4em;
+    transform: rotate(-32deg);
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
